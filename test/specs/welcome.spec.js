@@ -15,7 +15,7 @@ describe('DuckDuckGo search', function() {
     });
     it('executes shape client', function(){
         var x = browser.execute(function (){
-          return getFoo();
+          return getPerfData();
         });
         console.log(JSON.stringify(x));
     });
