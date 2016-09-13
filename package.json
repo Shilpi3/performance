@@ -1,0 +1,22 @@
+{
+  "name": "madagascar",
+  "version": "1.0.0",
+  "description": "training project",
+  "main": "sample.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "npm run test"
+  },
+  "author": "Shilpi",
+  "license": "ISC",
+  "devDependencies": {
+    "path": "^0.12.7",
+    "selenium-standalone": "^5.6.3",
+    "wdio-mocha-framework": "^0.4.2",
+    "wdio-selenium-standalone-service": "0.0.6",
+    "wdio-spec-reporter": "0.0.3",
+    "webdriverio": "^4.2.12"
+  }
+}
